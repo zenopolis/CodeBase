@@ -79,6 +79,14 @@
 		55F566862E2B8E6400AC94D2 /* OutlineViewController+Lifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlineViewController+Lifecycle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		550DBB232E508AFB00632800 /* My Examples */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "My Examples";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		551FD02D2E0EE5CC00B3B903 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -95,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				551FD06D2E0EE5F600B3B903 /* CodeBase */,
-				551FD0982E0EEA9800B3B903 /* My Examples */,
+				550DBB232E508AFB00632800 /* My Examples */,
 				5589ACC32E49234C00FDB0E4 /* Help */,
 				555C15A32E0FED40003E1F45 /* Resources */,
 				551FD0312E0EE5CC00B3B903 /* Products */,
@@ -133,13 +141,6 @@
 				553148872E2255FA0042215C /* Item.swift */,
 			);
 			path = Outline;
-			sourceTree = "<group>";
-		};
-		551FD0982E0EEA9800B3B903 /* My Examples */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "My Examples";
 			sourceTree = "<group>";
 		};
 		552C257F2E1022F6002DF0C6 /* Templates */ = {
