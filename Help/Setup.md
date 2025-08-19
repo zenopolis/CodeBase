@@ -1,21 +1,32 @@
 # Setup
 
-## Signing & Capabilities
+## Installation
 
-In Xcode:
+On a Mac with Xcode 16.4 (or higher) installed...
 
-* Select the CodeBase project file at the top of the Project Navigator.
-* Select the CodeBase Target.
-* Select the Signing & Capabilities tab.
-* Select a _Team_.
-* Add a bundle identifier in the form `com.example.CodeBase` (replacing _com.example_ with your own reverse domain name.)
+* Download and open the [CodeBase ZIP file](https://github.com/zenopolis/CodeBase/archive/refs/heads/main.zip) from GitHub.
+* Rename the folder from `CodeBase-main` to `CodeBase`.
+* Place the **CodeBase** folder in your **Developer** folder.
+* Open the **CodeBase Project** file to open the project in Xcode.
+* If a warning message appears, click **Trust and Open**.
+
+### Signing & Capabilities
+
+In Xcode, you will need to add your bundle identifier and switch on signing.
+
+* Use an identifier in the form `com.example.CodeBase` (replacing _com.example_ with your own reverse-DNS formatted identifier).
 
 Test everything works by building and running.
 
-## Installing Templates
+### Installing Templates
 
-Place a **copy** of the `.xctemplate` folders found in the `CodeBase/Resources/Templates/File Templates/CodeBase Example Items/` folder in this project into the following Home Directory folder (creating any folders that don't exist):
+* Close Xcode.
+* Using **Finder**, open the directory:
+ 
+`CodeBase/Resources/Templates/File Templates/CodeBase Example Items/`
+
+* Place a **copy** of these `.xctemplate` folders in the following directory (create any missing folders):
 
 `~Library/Developer/Xcode/Templates/File Templates/CodeBase Example Items/`
 
-Close and re-open Xcode before use.
+* Re-open Xcode.
