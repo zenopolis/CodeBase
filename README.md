@@ -2,7 +2,23 @@
 
 # CodeBase
 
-Use Xcode as your coding notebook.
+CodeBase is an environment for Xcode that allows you to gather together your coding notes with live working examples.
+
+* It acts as a single source of truth for your coding experiments and examples, turning your environment into a personal knowledge base.
+* It enables you to run, test, and display your examples in a single app, keeping track of what you learn and showcasing your skills.
+
+## Example
+
+![iPad-Example](https://github.com/user-attachments/assets/6ef57698-50b3-4e48-a822-9eb729d6d1e5)
+
+  _Compiled, CodeBase is an organized showcase for your examples._
+
+---
+
+![Xcode-Example](https://github.com/user-attachments/assets/5b66e33c-53ad-4193-8655-8618673a2e9c)
+
+  _In Xcode you use groups or folders to match the compiled version._
+  
 
 ## Key Features
 
