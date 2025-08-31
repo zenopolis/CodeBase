@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="205px" height="205px" viewBox="0 0 205 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Small Circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Glass-Icon-Components" transform="translate(-418.000000, -409.000000)" fill="#FFFFFF">
+            <path d="M520.904305,409.904795 C577.237305,409.904795 622.904305,455.571795 622.904305,511.904795 C622.904305,568.237795 577.237305,613.904795 520.904305,613.904795 C464.571305,613.904795 418.904305,568.237795 418.904305,511.904795 C418.904305,455.571795 464.571305,409.904795 520.904305,409.904795 Z" id="Small-Circle"></path>
+        </g>
+    </g>
+</svg>

@@ -23,6 +23,7 @@
 		555C158E2E0EF580003E1F45 /* MarkdownLaunchController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555C158D2E0EF57F003E1F45 /* MarkdownLaunchController.storyboard */; };
 		5589ACC22E49216500FDB0E4 /* OutlineViewController+SupplimentalContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5589ACC12E49216500FDB0E4 /* OutlineViewController+SupplimentalContent.swift */; };
 		5589ACC92E49251800FDB0E4 /* Setup.md in Resources */ = {isa = PBXBuildFile; fileRef = 5589ACC52E49251800FDB0E4 /* Setup.md */; };
+		55B88F422E647CAB00DD8005 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 55B88F412E647CAB00DD8005 /* AppIcon.icon */; };
 		55F566852E298B6100AC94D2 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F566842E298B6100AC94D2 /* Persistance.swift */; };
 		55F566872E2B8E6400AC94D2 /* OutlineViewController+Lifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F566862E2B8E6400AC94D2 /* OutlineViewController+Lifecycle.swift */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		557BFE4B2E4E394C0030D02A /* TemplateIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TemplateIcon@2x.png"; sourceTree = "<group>"; };
 		5589ACC12E49216500FDB0E4 /* OutlineViewController+SupplimentalContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OutlineViewController+SupplimentalContent.swift"; sourceTree = "<group>"; };
 		5589ACC52E49251800FDB0E4 /* Setup.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Setup.md; sourceTree = "<group>"; };
+		55B88F412E647CAB00DD8005 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		55E407FE2E4F6ACE0081A3B5 /* ___FILEBASENAME___ Deployment.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "___FILEBASENAME___ Deployment.md"; sourceTree = "<group>"; };
 		55E407FF2E4F6ACE0081A3B5 /* ___FILEBASENAME___View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___View.swift"; sourceTree = "<group>"; };
 		55E408002E4F6ACE0081A3B5 /* ___FILEBASENAME___ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "___FILEBASENAME___ViewController.storyboard"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				551FD0772E0EE8AA00B3B903 /* Outline */,
 				555C158A2E0EF4E2003E1F45 /* Launchers */,
 				551FD0652E0EE5F600B3B903 /* Assets.xcassets */,
+				55B88F412E647CAB00DD8005 /* AppIcon.icon */,
 				551FD0662E0EE5F600B3B903 /* Info.plist */,
 			);
 			path = CodeBase;
@@ -392,6 +395,7 @@
 				5589ACC92E49251800FDB0E4 /* Setup.md in Resources */,
 				555C158E2E0EF580003E1F45 /* MarkdownLaunchController.storyboard in Resources */,
 				5546751C2E4FBD2C0063F19B /* Adding Your Examples.md in Resources */,
+				55B88F422E647CAB00DD8005 /* AppIcon.icon in Resources */,
 				551FD0762E0EE7EE00B3B903 /* Main.storyboard in Resources */,
 				551FD06E2E0EE5F600B3B903 /* Assets.xcassets in Resources */,
 				551FD0702E0EE5F600B3B903 /* LaunchScreen.storyboard in Resources */,
@@ -438,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -467,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
