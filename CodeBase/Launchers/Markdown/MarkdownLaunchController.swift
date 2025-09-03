@@ -13,6 +13,27 @@ class MarkdownLaunchController: UIViewController {
 
     var markdownFileName: String? = nil
     
+    private let htmlBodyStart =
+    """
+    <!doctype html>
+    <html lang="en">
+      
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head >
+        
+        <body>
+    
+    """
+
+    private let htmlBodyEnd =
+    """
+    
+        </body>
+    </html>
+    """
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -36,7 +57,7 @@ class MarkdownLaunchController: UIViewController {
         let parser = MarkdownParser()
         let html = parser.html(from: markdown)
         
-        webView.loadHTMLString(html, baseURL: nil)
+        webView.loadHTMLString(htmlBodyStart + html + htmlBodyEnd, baseURL: nil)
     }
     
 }
